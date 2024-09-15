@@ -1,0 +1,163 @@
+.cartBox{
+    max-width: 80rem;
+    width: 100%;
+    padding: 0 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+    gap: 48px;
+}
+
+.cartTitle{
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.cartLocation, .locPart{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cartLocation{
+    gap: 60px;
+    color: var(--light-dark);
+    margin-bottom: 30px;
+}
+
+.locPart{
+    align-items: center;
+    gap: 20px;
+    padding: 30px 10px;
+    padding-right: 60px;
+
+}
+
+.cartSl{
+    background-color: var(--light-dark);
+    color: var(--primary);
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartActive{
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+}
+
+.cartActive .cartSl{
+    background-color: var(--text-color);
+}
+
+
+.itemsPriceBox{
+    width: 100%;
+}
+
+.cartItemsBox{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 20px;
+}
+
+.itemTitleBox{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    border-bottom: 2px solid var(--light-dark);
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: var(--light-dark);
+    margin-bottom: 20px;
+}
+
+.cartPriceBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid var(--light-dark);
+    height: fit-content;
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+
+.priceTitle{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.ship{
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.ship > div{
+    display: flex;
+    gap: 10px;
+}
+
+.subT{
+    color: var(--light-dark);
+    font-weight: 500;
+    border-bottom: 1px solid var(--bottom-border);
+    padding: 20px 0;
+    padding-bottom: 10px;
+}
+
+.total{
+    font-weight: 600;
+    color: var(--text-color);
+    padding: 10px 0;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.subT, .total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.couponBox{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.couponInput{
+    display: flex;
+    border: 1px solid var(--light-dark);
+    padding: 0 15px;
+}
+
+.hvCoup{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.addCoup{
+    color: var(--light-dark);
+}
+
+.couponInput input{
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.couponInput input:focus{
+    outline: none;
+}
+
+.couponInput button, .couponInput input{
+    font-weight: 600;
+}

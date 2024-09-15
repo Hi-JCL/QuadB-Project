@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.productPageBox{
+    max-width: 80rem;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 48px;
+}
+
+.bannerImg{
+    width: 100%;
+}
+
+.bannerInfoBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    color: var(--text-color);
+}
+
+.location{
+    color: var(--light-dark);
+    
+}
+
+.lastLoc{
+    color: var(--text-color);
+    padding-left: 10px;
+}
+
+.banTitle{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.location, .ban{
+    font-size: 1.2rem;
+}
+
+.productListing{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    padding: 0 48px;
+}
+
+.catBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+.sortBox{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.sortBy{
+    height: fit-content;
+    width: 100px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.viewOptionBox{
+    display: flex;
+    align-items: center;
+}
+
+.gridBox, .squareBox, .colBox, .rowBox{
+    display: grid;
+    gap: 2px;
+    border: 1px solid var(--light-dark);
+    width: fit-content;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.gridBox{
+    grid-template-columns: repeat(3, minmax(1px, 1fr));    
+    grid-template-rows: repeat(3, minmax(1px, 1fr));
+    
+}
+
+.squareBox{
+    grid-template-columns: repeat(2, minmax(1px, 1fr));    
+    grid-template-rows: repeat(2, minmax(1px, 1fr));
+    border-left: none;
+    border-right: none;
+}
+
+.gridView, .squareView{
+    border-radius: 3px;
+    background-color: var(--light-dark);
+}
+
+.gv{
+    border-radius: 2px;
+}
+
+.colBox{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10px, 1fr)); 
+    border-right: none;   
+}
+
+.rowBox{
+    grid-template-rows: repeat(2, minmax(10px, 1fr));
+    
+}
+
+.activeView{
+    background-color: var(--bottom-border);
+    
+}
+
+.activeView > .active{
+    background-color: var(--text-color);
+}
+
+
+.productsContainer{
+    margin: 60px 0;
+    padding: 0 48px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.seeMore{
+    font-size: 1.4rem;
+    border: 2px solid var(--text-color);
+    border-radius: 10rem;
+    padding: 5px 50px;
+    cursor: pointer;
+    margin-bottom: 120px;
+}

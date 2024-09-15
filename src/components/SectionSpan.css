@@ -1,0 +1,19 @@
+.spanBox{
+    border-bottom: 1px solid var(--light-dark);
+    padding: 15px 0;
+}
+
+.expand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.downArrow{
+    width: 2.4rem;
+}

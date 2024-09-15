@@ -1,0 +1,22 @@
+.similarItemBox{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 500;
+    width: 100%;
+}
+
+.similarItemBox a{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 11rem;
+    border-bottom: 2px solid var(--light-dark);
+}
+
+
+.similarItemBox a img{
+    width: 1.6rem;
+}

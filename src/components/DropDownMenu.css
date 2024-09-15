@@ -1,0 +1,16 @@
+.dropMenuBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+.dropTitle{
+    color: var(--light-dark);
+}
+
+.dropMenu{
+    border: 2px solid var(--light-dark);
+    padding: 10px 20px;
+    border-radius: 8px;
+}

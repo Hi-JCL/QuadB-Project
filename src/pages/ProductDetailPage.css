@@ -1,0 +1,205 @@
+.head{
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastLoc{
+    color: var(--text-color);
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.location{
+    align-self: start;
+}
+
+.productdetailBox{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 80rem;
+    width: 100%;
+    padding: 0 48px;
+    color: var(--light-dark);
+    font-size: 1.1rem;
+    padding-bottom: 48px;
+}
+
+.productContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.imagesBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: fit-content;
+}
+
+.imagesBox > img{
+    width: 100%;
+}
+
+.itemDetailsBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 48px;
+}
+
+.rate{
+    display: flex;
+}
+
+.rate > img{
+    display: inline-block;
+    width: 20px;
+}
+
+.userRating{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.ratingBox2{
+    display: flex;
+    gap: 20px;
+}
+
+.productTitle2{
+    font-size: 2.4rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.priceBox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.lowPrice{
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+
+.orgPrice{
+    text-decoration-line: line-through;
+    font-size: 1.2rem;
+}
+
+.dimension{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dimension > p{
+    font-weight: 500;
+}
+
+.size{
+    color: var(--text-color);
+}
+
+.chooseColor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chooseColor > p:first-child{
+    font-weight: 500;
+}
+
+.colorName{
+    color: var(--text-color);
+}
+
+.moreItems{
+    display: flex;
+    gap: 20px;
+}
+
+.moreItems > img{
+    cursor: pointer;
+}
+
+.countBox{
+    background-color: var(--bottom-border);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border: 1px solid var(--light-dark);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    padding: 2px 10px;
+    width: 120px;
+}
+
+.operationBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.operationBox > div{
+    display: flex;
+    gap: 20px;
+}
+
+.wishlistBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.addCart{
+    font-weight: 500;
+    background-color: var(--text-color);
+    color: var(--primary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.model{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.value{
+    color: var(--text-color);
+}
+
+.additionInfoBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addInfo > .infoTitle{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.newTag, .discountTag{
+    padding: 1px 10px;
+}
+
+.tag{
+    gap: 5px;
+}

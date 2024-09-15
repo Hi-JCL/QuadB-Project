@@ -1,0 +1,16 @@
+.similarProductSuggestionBox{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+}
+
+.similarProductSuggestionBox .productBox{
+    min-width: 10rem;
+}
+
+.similarProductSuggestionBox .imgTag{
+    padding: 0 5px;
+    margin-top: -15px;
+}
